@@ -18,9 +18,9 @@
 
 BuildInLibrary：
 
-        包含了sleep：可以在自动化的时候用
-        获取全局参数get_glob_paramter和设置全局参数get_glob_paramter：封装了一些不同类型的时间戳，可以自己定义。
-        替换参数：设置自定义参数后，使其生效返回对应的值
+        1. 包含了sleep：可以在自动化的时候用
+        2. get_glob_paramter和set_glob_paramter：获取和设置全局参数，也封装了一些不同类型的时间戳，可以自己定义自己需要的时间戳。
+        3. 替换参数：设置自定义参数后，使其生效返回对应的值
 
 MyEncryptLibrary：
 
