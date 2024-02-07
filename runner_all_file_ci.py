@@ -40,7 +40,7 @@ class Runner(object):
         #         '用例标题': '输入正确的账号登录成功',
         #         '测试步骤': [['打开浏览器', 'MySeleniumLibrary', 'open_browser', 'chrome'],
         #                      ['最大化浏览器', 'MySeleniumLibrary', 'maximize_browser_window'],
-        #                      ['输入网址', 'MySeleniumLibrary', 'go_to', 'http://1.14.44.5:8080/woniusales/'],
+        #                      ['输入网址', 'MySeleniumLibrary', 'go_to', 'http://1.14.44.5:8080/'],
         #                      ['输入用户名', 'MySeleniumLibrary', 'input_text', 'id=username', 'admin'],
         #                      ['输入密码', 'MySeleniumLibrary', 'input_password', 'id=password1', 'admin123'],
         #                      ['输入验证码', 'MySeleniumLibrary', 'input_text', 'id=verifycode', '11xx'],
