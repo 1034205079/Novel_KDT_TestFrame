@@ -14,7 +14,7 @@ class Config:
     mail_token = "lq6ugG9jg1z4d4mg"
     mail_smtp = "smtp.qiye.aliyun.com"
     mail_port = 465
-    receive_mail = ['songxiaofei@ludashi.com', 'wenrong@ludashi.com',]  # 收件人列表
+    receive_mail = ['songxiaofei@ludashi.com', ]  # 收件人列表
 
 
 if __name__ == '__main__':
