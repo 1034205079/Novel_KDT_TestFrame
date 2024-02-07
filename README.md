@@ -10,5 +10,18 @@
         runner：三种启动器，单独启动api测试，web自动化测试，全部一起测试（这个支持cmd启动）
 
 如何使用？
-先修改配置文件config，
+
+1. 先修改配置文件config，
 ![image](https://github.com/1034205079/Novel_KDT_TestFrame/assets/47485084/de1777d2-d1fc-49b2-8266-e07d60b07640)
+
+2.写用例？不，先熟悉关键字库再写！在keyword目录下
+
+BuildInLibrary：
+
+        包含了sleep：可以在自动化的时候用
+        获取全局参数get_glob_paramter和设置全局参数get_glob_paramter：封装了一些不同类型的时间戳，可以自己定义。
+        替换参数：设置自定义参数后，使其生效返回对应的值
+
+MyEncryptLibrary：
+
+        
