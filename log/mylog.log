@@ -1,0 +1,42 @@
+2024-02-07 16:12:11,876 INFO runner_api.py 35 --> 开始执行用例-->test_get_goodslist_01  -->商品-->查询-->输入正确的信息成功查询商品列表
+2024-02-07 16:12:11,876 INFO runner_api.py 42 --> 开始执行步骤-->加密请求参数
+2024-02-07 16:12:12,005 INFO runner_api.py 28 --> 新创建了一个关键字实例--><Novel_KDT_TestFrame.keyword.MyEncryptLibrary.MyEncryptLibrary object at 0x080C2CD0>
+2024-02-07 16:12:12,008 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,009 INFO runner_api.py 42 --> 开始执行步骤-->获取token
+2024-02-07 16:12:12,009 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,009 INFO runner_api.py 42 --> 开始执行步骤-->发送请求
+2024-02-07 16:12:12,156 INFO runner_api.py 28 --> 新创建了一个关键字实例--><Novel_KDT_TestFrame.keyword.MyRequestsLibrary.MyRequestsLibrary object at 0x080C2BE0>
+2024-02-07 16:12:12,315 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,315 INFO runner_api.py 42 --> 开始执行步骤-->响应码断言
+2024-02-07 16:12:12,316 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,316 INFO runner_api.py 42 --> 开始执行步骤-->响应内容断言
+2024-02-07 16:12:12,316 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,316 INFO runner_api.py 61 --> 结束执行用例-->test_get_goodslist_01 -->  pass
+2024-02-07 16:12:12,316 INFO runner_api.py 62 --> ------------------------------------------------------------
+2024-02-07 16:12:12,316 INFO runner_api.py 35 --> 开始执行用例-->test_get_goodslist_02  -->商品-->查询-->输入错误的参数无法查询列表
+2024-02-07 16:12:12,316 INFO runner_api.py 42 --> 开始执行步骤-->加密请求参数
+2024-02-07 16:12:12,316 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,317 INFO runner_api.py 42 --> 开始执行步骤-->获取token
+2024-02-07 16:12:12,317 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,317 INFO runner_api.py 42 --> 开始执行步骤-->发送请求
+2024-02-07 16:12:12,396 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,396 INFO runner_api.py 42 --> 开始执行步骤-->响应码断言
+2024-02-07 16:12:12,396 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,396 INFO runner_api.py 42 --> 开始执行步骤-->响应内容断言
+2024-02-07 16:12:12,396 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,396 INFO runner_api.py 61 --> 结束执行用例-->test_get_goodslist_02 -->  pass
+2024-02-07 16:12:12,396 INFO runner_api.py 62 --> ------------------------------------------------------------
+2024-02-07 16:12:12,397 INFO runner_api.py 35 --> 开始执行用例-->test_get_goodslist_03  -->商品-->查询-->输入错误的TOKEN无法查询列表
+2024-02-07 16:12:12,397 INFO runner_api.py 42 --> 开始执行步骤-->加密请求参数
+2024-02-07 16:12:12,397 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,397 INFO runner_api.py 42 --> 开始执行步骤-->获取token
+2024-02-07 16:12:12,397 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,397 INFO runner_api.py 42 --> 开始执行步骤-->发送请求
+2024-02-07 16:12:12,476 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,476 INFO runner_api.py 42 --> 开始执行步骤-->响应码断言
+2024-02-07 16:12:12,476 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,476 INFO runner_api.py 42 --> 开始执行步骤-->响应内容断言
+2024-02-07 16:12:12,476 INFO runner_api.py 57 -->   步骤执行  通过
+2024-02-07 16:12:12,476 INFO runner_api.py 61 --> 结束执行用例-->test_get_goodslist_03 -->  pass
+2024-02-07 16:12:12,476 INFO runner_api.py 62 --> ------------------------------------------------------------
+2024-02-07 16:12:12,476 INFO runner_api.py 84 --> 所有用例执行完成：总数3,通过数：3,失败数：0，跳过数：0。

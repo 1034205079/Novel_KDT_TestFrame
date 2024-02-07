@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>自动化测试报告Detail</title>
+    <style type="text/css">
+      h1{
+        text-align: center; /*文本居中*/
+      }
+      table{
+        margin: auto ;  /*表格居中*/
+        width: 95%; /*宽度为页面的90%*/
+        text-align: center;/*文字居中*/
+      }
+      body{
+        background: radial-gradient(circle at center,white,cyan);/*背景颜色*/
+      }
+      tr th:nth-child(9){
+        width: 100px;  /*设置最后一列用例执行信息的宽度为100*/
+      }
+    </style>
+  </head>
+  <body>
+    <h1>自动化测试报告Detail</h1>
+    <table border="1" cellspacing="1" cellpadding="9">
+      <tr><th>ID</th><th>报告时间</th><th>用例编号</th><th>用例是否执行</th><th>用例模块</th><th>用例功能</th><th>用例标题</th><th>用例结果</th><th>用例执行信息</th></tr>
+      '{detail_data}'
+    </table>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>KDT测试结果</title>
+		<style type="text/css">
+			h1{
+				text-align: center;  /* 标题居中 */
+			}
+			table{
+				margin: auto;   /*表格居中*/
+				text-align: center;  /*文字居中*/     
+				width: 90%;  /*宽度为页面的90%*/
+			}
+			body{
+				background: radial-gradient(circle at center,white,silver);
+			}  /* 背景颜色 */
+		</style>
+	</head>
+	<body>
+		<h1>KDT测试结果</h1>
+		<table border="1" cellspacing="1" cellpadding="9">
+			<tr><th>ID</th><th>测试时间(点击查看详情)</th><th>用例总数</th><th>用例通过数量</th><th>用例失败数量</th><th>用例跳过数量</th></tr>
+			{summary_data}
+		</table>
+	</body>
+</html>
