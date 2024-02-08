@@ -1,3 +1,17 @@
+我用的python3.8
+
+安装依赖库，国内卡就加个清华源 -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+
+
+        1. 读取excel：pip install openpyxl
+        2. 操作mysql：pip install pymysql
+        3. requests库：pip install requests
+        4. selenium库：pip install selenium
+        5. 报告服务器：pip install flask
+        6. 报告邮件：pip install yagmail
+        7. 加解密模块：pip install pycryptodome
+        
+
 组件介绍：
 
         cases：存储测试用例的xlsx格式文件，包含demo。填写方式可参考demo
