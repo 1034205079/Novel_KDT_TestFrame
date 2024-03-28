@@ -5,6 +5,7 @@ import os
 class Config:
     project_path = os.path.split(os.path.split(__file__)[0])[0]
     project_name = str(project_path).split('\\')[-1]  # 从路径中拿到项目名
+    device_id = "d919996e"  # 安卓设备id,用adb devices命令获取
     windows_ip = "172.16.10.34"  # 你电脑的ip地址
     base_url = "http://novel.123.com"  # 你要测试的网站的基础url
     db_info = {"host": "172.16.10.180", "port": 3306, "user": "root", "password": "root", "db": "kdt_test"}  # 数据链接信息，db是数据库名，建议固定
