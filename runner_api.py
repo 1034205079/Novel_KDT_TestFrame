@@ -88,10 +88,24 @@ class Runner:
             case_error_info = html.escape(case.get('执行信息'))  # 转义错误信息，防止sql语句错误
             case_error_info = case_error_info.replace("\n", "<br>").replace("\\", "\\\\")  # 换行和反斜杠转义
             self.db.update(
-                'insert into details(report_time,case_no,execute,case_module,case_function,case_title,result,errorinfo)'
-                f'''values("{self.report_time}","{case.get('用例编号')}","{case.get('是否执行')}","{case.get('用例模块')}",
-                "{case.get('用例功能')}","{case.get('用例标题')}","{case.get('执行结果')}","{case_error_info}")''')
-            # 保存用例执行信息到数据库
+                'insert into details('
+                'report_time,'
+                'case_no,'
+                'execute,'
+                'case_module,'
+                'case_function,'
+                'case_title,'
+                'result,'
+                'errorinfo)'
+                f'''values(
+                "{self.report_time}",
+                "{case.get('用例编号')}",
+                "{case.get('是否执行')}",
+                "{case.get('用例模块')}",
+                "{case.get('用例功能')}",
+                "{case.get('用例标题')}",
+                "{case.get('执行结果')}",
+                "{case_error_info}")''')   # 保存用例执行信息到数据库
 
     def send_mail(self):
         """发送邮件"""
