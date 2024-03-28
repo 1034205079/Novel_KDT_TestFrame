@@ -1,8 +1,8 @@
-2024-03-28 14:14:40,324 INFO runner_api.py 33 --> 开始执行用例-->test_get_goodslist_01  -->商品-->查询-->输入正确的信息成功查询商品列表
-2024-03-28 14:14:40,324 INFO runner_api.py 40 --> 开始执行步骤-->加密请求参数
-2024-03-28 14:14:40,443 INFO runner_api.py 27 --> 新创建了一个关键字实例--><Novel_KDT_TestFrame.keyword.MyEncryptLibrary.MyEncryptLibrary object at 0x07804EC8>
-2024-03-28 14:14:40,444 INFO runner_api.py 46 -->   步骤执行  失败
-2024-03-28 14:14:40,445 INFO runner_api.py 49 --> Traceback (most recent call last):
+2024-03-28 15:18:43,330 INFO runner_api.py 33 --> 开始执行用例-->test_get_goodslist_01  -->商品-->查询-->输入正确的信息成功查询商品列表
+2024-03-28 15:18:43,330 INFO runner_api.py 40 --> 开始执行步骤-->加密请求参数
+2024-03-28 15:18:43,462 INFO runner_api.py 27 --> 新创建了一个关键字实例--><Novel_KDT_TestFrame.keyword.MyEncryptLibrary.MyEncryptLibrary object at 0x07F57A60>
+2024-03-28 15:18:43,462 INFO runner_api.py 46 -->   步骤执行  失败
+2024-03-28 15:18:43,465 INFO runner_api.py 49 --> Traceback (most recent call last):
   File "D:\pythonProject\Novel_KDT_TestFrame\runner_api.py", line 44, in run_one_case
     method(*step[3:])  # 运行实例方法，传入必要的参数
   File "D:\pythonProject\Novel_KDT_TestFrame\keyword\MyEncryptLibrary.py", line 13, in des_encrypt
@@ -17,12 +17,12 @@
     raise ValueError("Incorrect DES key length (%d bytes)" % len(key))
 ValueError: Incorrect DES key length (21 bytes)
 
-2024-03-28 14:14:40,446 INFO runner_api.py 56 --> 结束执行用例-->test_get_goodslist_01 -->  fail
-2024-03-28 14:14:40,446 INFO runner_api.py 57 --> ------------------------------------------------------------
-2024-03-28 14:14:40,446 INFO runner_api.py 33 --> 开始执行用例-->test_get_goodslist_02  -->商品-->查询-->输入错误的参数无法查询列表
-2024-03-28 14:14:40,446 INFO runner_api.py 40 --> 开始执行步骤-->加密请求参数
-2024-03-28 14:14:40,446 INFO runner_api.py 46 -->   步骤执行  失败
-2024-03-28 14:14:40,447 INFO runner_api.py 49 --> Traceback (most recent call last):
+2024-03-28 15:18:43,465 INFO runner_api.py 56 --> 结束执行用例-->test_get_goodslist_01 -->  fail
+2024-03-28 15:18:43,465 INFO runner_api.py 57 --> ------------------------------------------------------------
+2024-03-28 15:18:43,465 INFO runner_api.py 33 --> 开始执行用例-->test_get_goodslist_02  -->商品-->查询-->输入错误的参数无法查询列表
+2024-03-28 15:18:43,465 INFO runner_api.py 40 --> 开始执行步骤-->加密请求参数
+2024-03-28 15:18:43,465 INFO runner_api.py 46 -->   步骤执行  失败
+2024-03-28 15:18:43,466 INFO runner_api.py 49 --> Traceback (most recent call last):
   File "D:\pythonProject\Novel_KDT_TestFrame\runner_api.py", line 44, in run_one_case
     method(*step[3:])  # 运行实例方法，传入必要的参数
   File "D:\pythonProject\Novel_KDT_TestFrame\keyword\MyEncryptLibrary.py", line 13, in des_encrypt
@@ -37,12 +37,12 @@ ValueError: Incorrect DES key length (21 bytes)
     raise ValueError("Incorrect DES key length (%d bytes)" % len(key))
 ValueError: Incorrect DES key length (21 bytes)
 
-2024-03-28 14:14:40,447 INFO runner_api.py 56 --> 结束执行用例-->test_get_goodslist_02 -->  fail
-2024-03-28 14:14:40,447 INFO runner_api.py 57 --> ------------------------------------------------------------
-2024-03-28 14:14:40,447 INFO runner_api.py 33 --> 开始执行用例-->test_get_goodslist_03  -->商品-->查询-->输入错误的TOKEN无法查询列表
-2024-03-28 14:14:40,447 INFO runner_api.py 40 --> 开始执行步骤-->加密请求参数
-2024-03-28 14:14:40,447 INFO runner_api.py 46 -->   步骤执行  失败
-2024-03-28 14:14:40,448 INFO runner_api.py 49 --> Traceback (most recent call last):
+2024-03-28 15:18:43,466 INFO runner_api.py 56 --> 结束执行用例-->test_get_goodslist_02 -->  fail
+2024-03-28 15:18:43,466 INFO runner_api.py 57 --> ------------------------------------------------------------
+2024-03-28 15:18:43,466 INFO runner_api.py 33 --> 开始执行用例-->test_get_goodslist_03  -->商品-->查询-->输入错误的TOKEN无法查询列表
+2024-03-28 15:18:43,466 INFO runner_api.py 40 --> 开始执行步骤-->加密请求参数
+2024-03-28 15:18:43,467 INFO runner_api.py 46 -->   步骤执行  失败
+2024-03-28 15:18:43,467 INFO runner_api.py 49 --> Traceback (most recent call last):
   File "D:\pythonProject\Novel_KDT_TestFrame\runner_api.py", line 44, in run_one_case
     method(*step[3:])  # 运行实例方法，传入必要的参数
   File "D:\pythonProject\Novel_KDT_TestFrame\keyword\MyEncryptLibrary.py", line 13, in des_encrypt
@@ -57,6 +57,6 @@ ValueError: Incorrect DES key length (21 bytes)
     raise ValueError("Incorrect DES key length (%d bytes)" % len(key))
 ValueError: Incorrect DES key length (21 bytes)
 
-2024-03-28 14:14:40,450 INFO runner_api.py 56 --> 结束执行用例-->test_get_goodslist_03 -->  fail
-2024-03-28 14:14:40,450 INFO runner_api.py 57 --> ------------------------------------------------------------
-2024-03-28 14:14:40,451 INFO runner_api.py 79 --> 所有用例执行完成：总数3,通过数：0,失败数：3，跳过数：0。
+2024-03-28 15:18:43,467 INFO runner_api.py 56 --> 结束执行用例-->test_get_goodslist_03 -->  fail
+2024-03-28 15:18:43,467 INFO runner_api.py 57 --> ------------------------------------------------------------
+2024-03-28 15:18:43,467 INFO runner_api.py 79 --> 所有用例执行完成：总数3,通过数：0,失败数：3，跳过数：0。
